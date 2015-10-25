@@ -14,3 +14,4 @@
 .DS_Store
 # Added to not force use of .rvmrc file.
 .rvmrc
+.overcommit.yml
