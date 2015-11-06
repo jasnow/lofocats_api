@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
-# Rails
-gem 'rails', '4.2.5.rc1'
+gem 'rails', '4.2.5.rc2'
 # Database
 gem 'sqlite3'
 
@@ -16,7 +15,7 @@ gem 'cancan'
 
 group :test do
   # Rspec
-  gem 'rspec-rails', '~> 3.0'
+  gem 'rspec-rails'
   # FactoryGirl factories
   gem "factory_girl_rails"
   # Use should matchers
