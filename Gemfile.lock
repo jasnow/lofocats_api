@@ -106,7 +106,7 @@ GEM
       rspec-expectations (~> 3.4.0)
       rspec-mocks (~> 3.4.0)
       rspec-support (~> 3.4.0)
-    rspec-support (3.4.0)
+    rspec-support (3.4.1)
     shoulda-matchers (3.0.1)
       activesupport (>= 4.0.0)
     sprockets (3.4.0)
