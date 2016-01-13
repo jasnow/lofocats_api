@@ -19,7 +19,7 @@ group :test do
   # FactoryGirl factories
   gem "factory_girl_rails"
   # Use should matchers
-  gem 'shoulda-matchers', require: false
+  gem 'shoulda-matchers', '3.0.1', require: false # LOCKED DOWN - see #880 for fix.
   # To better handle time sensitive tests
   gem 'timecop'
 end

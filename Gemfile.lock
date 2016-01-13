@@ -90,7 +90,7 @@ GEM
       activesupport (= 4.2.5)
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
-    rake (10.4.2)
+    rake (10.5.0)
     rspec-core (3.4.1)
       rspec-support (~> 3.4.0)
     rspec-expectations (3.4.0)
@@ -134,7 +134,7 @@ DEPENDENCIES
   factory_girl_rails
   rails (= 4.2.5)
   rspec-rails
-  shoulda-matchers
+  shoulda-matchers (= 3.0.1)
   sqlite3
   timecop
 
