@@ -13,6 +13,8 @@ gem 'active_model_serializers'
 # Used for API authorization
 gem 'cancan'
 
+gem 'responders'
+ 
 group :test do
   # Rspec
   gem 'rspec-rails'
