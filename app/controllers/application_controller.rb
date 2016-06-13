@@ -1,6 +1,7 @@
 class ApplicationController < ActionController::Base
   # CSRF handling for APIS (instead of raising exceptions)
-  protect_from_forgery :with => :null_session
+  # WAS: protect_from_forgery :with => :null_session
+  protect_from_forgery with: :exception
 
   # Whenever an AccessDenied is raised based on the current ability, respond with 401
   rescue_from CanCan::AccessDenied do |exception|
